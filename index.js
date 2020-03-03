@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 
-function greet() {
+function greet(textInput) {
 var time = new Date('March 13, 08 01:00').getHours()
 var hours = new Date('March 13, 08 12:00').getHours()
   for(let e = 1; e < 24; e++) {
