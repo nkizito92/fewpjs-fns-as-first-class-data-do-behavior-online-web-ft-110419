@@ -11,7 +11,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
 
-const time = new Date().getHours('March 13, 08 04:20')
+const time = new Date('March 13, 08 04:20').getHours()
 function greet(hours) {
   if(time < hours) {
     return "Good Morning";
