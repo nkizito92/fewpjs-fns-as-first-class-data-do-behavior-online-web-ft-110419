@@ -22,6 +22,6 @@ function greet(hours) {
   }
 } 
 
-greet()
+greet(12)
 
 function displayMessage() {}
