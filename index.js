@@ -33,4 +33,4 @@ function displayMessage() {
   console.log(message);
 }
 
-displayMessage()
+displayMessage();
