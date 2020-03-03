@@ -10,15 +10,14 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-
-const time = new Date('March 13, 08 01:00').getHours()
-const hours = new Date('March 13, 08 12:00').getHours()
-function greet() {
+function greet(e) {
+var time = new Date('March 13, 08 01:00').getHours()
+var hours = new Date('March 13, 08 12:00').getHours()
   if(time < hours) {
     return "Good Morning";
-  } else if (time > hours && time < hours+5){
+  } else if (time+e > hours && time+e < hours+5){
     return "Good Afternoon";
-  } else if (time > hours) {
+  } else if (time+e > hours+5) {
     return "Good Evening";
   }
 } 
