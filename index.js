@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function greet() {
-  return console.log()
+  return console.log("Good Morning before 12pm")
   
 } 
 
