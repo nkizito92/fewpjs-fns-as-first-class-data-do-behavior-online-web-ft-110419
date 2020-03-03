@@ -15,11 +15,11 @@ function handleClick(e) {
 function greet(textInput) {
 var hours = new Date('March 13, 08 12:00').getHours()
   for(let e = 1; e < 24; e++) {
-    if(time < hours) {
+    if(textInput < hours) {
       return "Good Morning";
-    } else if (time+e > hours && time+e < hours+5){
+    } else if (textInput+e > hours && time+e < hours+5){
       return "Good Afternoon";
-    } else if (time+e > hours+5) {
+    } else if (textInput+e > hours+5) {
       return "Good Evening";
     }
   }
