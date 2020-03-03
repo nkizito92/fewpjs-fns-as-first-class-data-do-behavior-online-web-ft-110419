@@ -10,7 +10,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function greet(e) {
+function greet() {
 var time = new Date('March 13, 08 01:00').getHours()
 var hours = new Date('March 13, 08 12:00').getHours()
   if(time < hours) {
@@ -20,6 +20,7 @@ var hours = new Date('March 13, 08 12:00').getHours()
   } else if (time+e > hours+5) {
     return "Good Evening";
   }
+  
 } 
 
 greet()
