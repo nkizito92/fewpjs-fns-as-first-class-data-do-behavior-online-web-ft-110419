@@ -31,5 +31,3 @@ const message = document.getElementById("greeting");
 function displayMessage() {
   console.log(message);
 }
-
-displayMessage();
