@@ -16,7 +16,7 @@ const hours = new Date('March 13, 08 12:00').getHours()
 function greet() {
   if(time < hours) {
     return "Good Morning";
-  } else if (time >= hours && time <= hours){
+  } else if (time > hours && time < hours){
     return "Good Afternoon";
   } else if (time > hours) {
     return "Good Evening";
