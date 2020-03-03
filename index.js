@@ -25,4 +25,7 @@ var hours = new Date('March 13, 08 12:00').getHours()
   
 } 
 
-function displayMessage() {}
+function displayMessage() {
+  document.getElementById("greeting")
+  
+}
