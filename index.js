@@ -27,6 +27,8 @@ var hours = new Date('March 13, 08 12:00').getHours()
   
 } 
 
+const message = document.getElementById("greeting")
+
 function displayMessage() {
   document.getElementById("greeting")
   
