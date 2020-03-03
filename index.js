@@ -12,12 +12,8 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function greet(time) {
-  if (time < 12) {
-    return "Good Morning";
-  } else if (time > 5)
-    
-    
   
+    return "Good Morning";
 } 
 
 function displayMessage() {}
