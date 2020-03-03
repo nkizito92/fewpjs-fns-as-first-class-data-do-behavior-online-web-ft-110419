@@ -12,9 +12,12 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 const time = new Date()
-function greet(hours) {
-  
+function greet() {
+  if(time < hours) {
     return "Good Morning";
+  } else if (time >= hours && time <= hours){
+    
+  }
 } 
 
 function displayMessage() {}
